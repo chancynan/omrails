@@ -4,8 +4,8 @@ gem 'rails', '3.2.12'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
-gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
-gem 'aws-sdk'
+gem 'paperclip', "~> 3.4.2"
+
 
 
 group :production do
